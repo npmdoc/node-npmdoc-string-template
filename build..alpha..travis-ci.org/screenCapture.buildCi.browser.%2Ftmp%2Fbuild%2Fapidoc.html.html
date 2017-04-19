@@ -54,12 +54,65 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.string-template">module string-template</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.string-template.string-template">
+            function <span class="apidocSignatureSpan"></span>string-template
+            <span class="apidocSignatureSpan">(string)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.string-template" id="apidoc.module.string-template">module string-template</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.string-template.string-template" id="apidoc.element.string-template.string-template">
+        function <span class="apidocSignatureSpan"></span>string-template
+        <span class="apidocSignatureSpan">(string)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function template(string) {
+    var args
+
+    if (arguments.length === 2 &amp;&amp; typeof arguments[1] === "object") {
+        args = arguments[1]
+    } else {
+        args = new Array(arguments.length - 1)
+        for (var i = 1; i &lt; arguments.length; ++i) {
+            args[i - 1] = arguments[i]
+        }
+    }
+
+    if (!args || !args.hasOwnProperty) {
+        args = {}
+    }
+
+    return string.replace(nargs, function replaceArg(match, i, index) {
+        var result
+
+        if (string[index - 1] === "{" &amp;&amp;
+            string[index + match.length] === "}") {
+            return i
+        } else {
+            result = args.hasOwnProperty(i) ? args[i] : null
+            if (result === null || result === undefined) {
+                return ""
+            }
+
+            return result
+        }
+    })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
