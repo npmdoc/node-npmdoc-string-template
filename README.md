@@ -1,9 +1,14 @@
-# api documentation for  [string-template (v1.0.0)](https://github.com/Matt-Esch/string-template)  [![npm package](https://img.shields.io/npm/v/npmdoc-string-template.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-string-template) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-string-template.svg)](https://travis-ci.org/npmdoc/node-npmdoc-string-template)
+# npmdoc-string-template
+
+#### api documentation for  [string-template (v1.0.0)](https://github.com/Matt-Esch/string-template)  [![npm package](https://img.shields.io/npm/v/npmdoc-string-template.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-string-template) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-string-template.svg)](https://travis-ci.org/npmdoc/node-npmdoc-string-template)
+
 #### A simple string template function based on named or indexed arguments
 
-[![NPM](https://nodei.co/npm/string-template.png?downloads=true)](https://www.npmjs.com/package/string-template)
+[![NPM](https://nodei.co/npm/string-template.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/string-template)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-string-template/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-string-template_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-string-template/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-string-template/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-string-template/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-string-template/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-string-template/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-string-template/build/screenCapture.npmPackageListing.svg)
 
@@ -17,12 +22,10 @@
 
 {
     "author": {
-        "name": "Matt-Esch",
-        "email": "matt@mattesch.info"
+        "name": "Matt-Esch"
     },
     "bugs": {
-        "url": "https://github.com/Matt-Esch/string-template/issues",
-        "email": "matt@mattesch.info"
+        "url": "https://github.com/Matt-Esch/string-template/issues"
     },
     "contributors": [
         {
@@ -54,13 +57,11 @@
     "main": "index",
     "maintainers": [
         {
-            "name": "mattesch",
-            "email": "matt@mattesch.info"
+            "name": "mattesch"
         }
     ],
     "name": "string-template",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/Matt-Esch/string-template.git"
@@ -90,16 +91,6 @@
     "version": "1.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module string-template](#apidoc.module.string-template)
-
-
-
-# <a name="apidoc.module.string-template"></a>[module string-template](#apidoc.module.string-template)
 
 
 
