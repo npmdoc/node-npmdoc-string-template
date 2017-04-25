@@ -1,6 +1,6 @@
 # npmdoc-string-template
 
-#### api documentation for  [string-template (v1.0.0)](https://github.com/Matt-Esch/string-template)  [![npm package](https://img.shields.io/npm/v/npmdoc-string-template.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-string-template) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-string-template.svg)](https://travis-ci.org/npmdoc/node-npmdoc-string-template)
+#### basic api documentation for  [string-template (v1.0.0)](https://github.com/Matt-Esch/string-template)  [![npm package](https://img.shields.io/npm/v/npmdoc-string-template.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-string-template) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-string-template.svg)](https://travis-ci.org/npmdoc/node-npmdoc-string-template)
 
 #### A simple string template function based on named or indexed arguments
 
@@ -88,7 +88,8 @@
             "android-browser/4.2..latest"
         ]
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
